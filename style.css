@@ -67,20 +67,23 @@ a{
 .player-info{
   margin: 15px;
 }
-footer{
+
+footer img{
+  width: 483.87px;
+  height: 110px
+ }
+ footer{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-.foot img{
-  width: 510.87px;
-  height: 110px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top:100px;
+width: 483.87px;
+height: 213px;
+margin:auto;
 }
 .icon{
-  color: #969BAB;
-  border-radius: 5px;
+ color: #969BAB;
 }
 
 /* ================
@@ -102,9 +105,5 @@ footer{
    grid-template-columns: repeat(1,1fr);
    margin: 2px;
    margin-top: 20px;
- }
- footer img{
-  height: 100px;
-  width: 100px;
  }
 }
